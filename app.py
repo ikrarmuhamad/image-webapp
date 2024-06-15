@@ -13,7 +13,7 @@ model = load_model(model_path)
 
 
 # Route untuk halaman utama
-@app.route('/', methods=['GET'])
+@app.route('/')
 def template():
     return render_template('index.html')
 
